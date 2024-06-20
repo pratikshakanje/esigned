@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-area{
+  color: #fff;
+  background-image: url(../images/hero-bg.jpg);
+}
+ 
+.header-section{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header-section span{
+  font-size: 25px;
+}
+
+.bars{
+  display: contents;
+}
+
+.header-list{
+  display: none;
+}
+
+.banner-section{
+  margin: 40px 20px;
+  text-align: center;
+}
+
+.banner-heading {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.ban-heading{
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-section p{
+  margin: 30px 0;
+}
+
+.contact button{
+  border: 1px solid black;
+  border-radius: 20px;
+  border-bottom-right-radius: 1px;
+  padding: 10px 50px;
+  margin-bottom: 100px;
+}
+
+.what-we-do{
+  text-align: center;
+  margin: 20px;
+}
+
+.do-section h2{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.icon img{
+  width: 120px;
+  padding: 30px;
+  vertical-align: middle;
+  background-color: black;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.icon .do-container{
+  margin: 35px 25px 0 25px;
+}
+
+.do-container h6{
+  font-weight: 500;
+}
+
+.who-main{
+  margin: 20px;
+}
+
+.who-section img{
+ width: 100%;
+ margin-bottom: 30px;
+}
+
+.details h2{
+font-size: 35px;
+text-align: center;
+font-weight: 700;
+word-spacing: 3px;
+margin-bottom:40px;
+}
+
+.readmore button{
+  border: 1px solid #000000;
+  border-radius: 15px;
+  border-bottom-right-radius: 1px;
+  padding: 10px 20px;
+  margin: 40px 0;
+  background-color: #353434;
+  color: #fff;
+}
+
+.creative{
+  margin: 20px;
+}
+
+.creative-details h2{
+  font-size: 35px;
+  font-weight:700;
+  width: 100%;
+  word-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.creative-details p{
+  margin-bottom: 60px;
+}
+
+.creative-pic img{
+  width: 100%;
+  margin: 0 0 -10px 0;
+}
+
+.customers{
+  margin: 20px;
+  margin-top: 60px;
+}
+
+
+.cust h2{
+  font-size: 35px;
+  font-weight: 700;
+  width: 50%;
+  margin-bottom: 60px;
+}
+
+.cust-box{
+  width: 70%;
+  margin: 40px;
+  text-align: center;
+  box-shadow: 0 0 10px #000000;
+}
+
+.cust-box img{
+  margin-top: 20px;
+}
+
+.cust-box h5{
+  margin: 30px;
+}
+
+.cust-box p{
+  margin: 20px;
+}
+
+.black{
+  background-color: #000000;
+  color:#ffffff;
+  text-align: center;
+  padding: 40px;
+}
+
+.black-section{
+  margin-bottom: 60px;
+}
+
+.black-section h2{
+  font-size: 30px;
+}
+
+.black-section h5{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.info-section h2{
+  width: 70%;
+  margin: 20px;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.info{
+  margin: 30px 50px;
+  border: 1px solid #808080;
+  padding: 10px;
+  border-radius:30px;
+}
+
+.info-message{
+  margin: 30px 50px;
+  border: 1px solid #808080;
+  padding: 35px 10px;
+  border-radius:30px;
+  height: 100px;
+}
+
+.info-button button{
+  margin: 0 90px;
+  padding: 10px 50px;
+  background-color:#FEC913;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.map img{
+  margin: 40px;
+  width:70%;
+}
+
+.lastinfo-section{
+  background-color: #000000;
+  color: #ffffff;
+  padding: 80px 20px 20px 20px;
+  text-align: center;
+}
+
+.about-shop h5{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.logo img{
+  width: 10px;
+}
+.informations h5,.insta h5{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.insta h5{
+  margin-top: 40px;
+}
+
+.insta-user img{
+  background-color: #ffffff;
+  padding: 10px 20px;
+  margin: 4px;
+}
+.newsletter h5{
+  font-size: 25px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.newsletter form input{
+  width: 100%;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+}
+
+.newsletter form button{
+  padding: 10px 30px;
+  background-color: #FEC913;
+  border: 1px solid #fbca47;
+  color:#fff;
+}
+
+.templates{
+  margin: 30px 0 0 0 ;
+  border-bottom: 1px solid #fff;
+}
+
+.templates img{
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  background-color: #000000;
+  color: #fff;
+  padding: 0 60px 20px;
+  text-align: center;
+}
+
+.footer-section a{
+  color: #fff;
+}
+
+@media (min-width:768px) {
+  
+  .banner-heading{
+    font-size: 30px;
+  }
+
+  .ban-heading{
+    font-size: 55px;
+  }
+
+  .banner-section p{
+    padding: 0 20%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .what-we-do{
+    margin: 0 100px;
+  }
+
+  .do-section p{
+    margin: 20px 0 30px;
+  }
+
+  .icon{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+
+  .do-container{
+    width: 32%;
+  }
+
+  .icon .do-container{
+    margin: 0 ;
+  }
+
+  .do-container h6{
+    font-weight: 500;
+  }
+
+  .who-main{
+    margin: 100px;
+  }
+
+  .details h2{
+   text-align: left;
+  }
+
+  .creative {
+    margin: 100px;
+  }
+
+  .customers{
+    margin: 100px;  
+  }
+
+  .cust h2{
+    width: 100%;
+    text-align: center;
+  }
+
+  .cust-box{
+    margin: 0 auto;
+  }
+
+  .black{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 80px 100px ;
+  }
+
+  .black-section{
+    width: 50%;
+  }
+
+  .info-ban{
+    margin: 100px;
+  }
+
+  .info-section h2{
+    margin: 0 auto;
+  }
+
+  .info-button{
+    margin: 0 130px;
+  }
+
+  .map img{
+    margin: 0 120px 30px
+  }
+
+  .lastinfo-section{
+    padding: 100px 100px 20px;
+  }
+
+  .newsletter form input{
+    width: 80%;
+  }
+}
+
+  @media (min-width:992px) {
+   
+    .do-container{
+      width: 15%;
+    }
+
+    .bars{
+      display: none;
+    }
+
+    .header-list{
+      display: block;
+      width: 50%;
+    }
+
+    .header-list ul{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header-list ul li{
+      list-style-type: disc;
+    }
+
+    .header-list ul li:nth-child(6), .header-list ul li:nth-child(7){
+      list-style: none;
+    }
+
+    .header-list ul li a{
+      color: white;
+    }
+
+    .who-main{
+      display: flex;
+    }
+
+    .who-section{
+      text-align: center;
+    }
+
+    .who-section img{
+      margin: 0 auto;
+      width: 57%;
+    }
+
+    .who-section{
+      width: 50%;
+    }
+
+    .details{
+      width: 50%;
+    }
+    .creat-imgsection img{
+      width: 100%;
+      height:100%;
+      object-fit: cover; 
+    }
+
+    .creat-imgsection{
+      width: 50%;
+      height: 400PX;
+      overflow: hidden;
+    }
+
+    .creative-pic{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .customers{
+      width: 35%;
+      margin: 0 35%;
+    }
+
+    .cust-box p{
+      padding-bottom: 40px;
+    }
+    
+    .black{
+      margin-top: 90px;
+      padding: 80px 80px 40px 80px;
+    }
+
+    .black-section{
+      width:25%;
+    }
+
+    .info-ban{
+      margin: 5% 15%;
+    }
+
+    .info-section h2{
+      text-align: center;
+    }
+
+    .info-button{
+      text-align: center;
+    }
+
+    .map{
+      text-align: center;
+    }
+
+    .foot{
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 0 auto;
+      border-bottom: 1px solid #fff;
+    }
+
+    .newsletter h5{
+      margin: 0;
+      padding-bottom: 40px;
+    }
+
+    .insta h5{
+      margin: 0;
+      padding-bottom: 40px;
+    }
+
+    .logo{
+      display: flex;
+      justify-content: left;
+      margin-left: 20px;
+    }
+    
+    .logo img{
+      width: 10px;
+      margin-right: 10px;
+    }
+
+    .informations{
+      width: 25%;
+    }
+    
+    .templates{
+      border: none;
+    }
+  }
+  
+
+
+
+
+
+  
+
+
